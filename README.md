@@ -1,14 +1,14 @@
 # [![](images/meta/icon-32x32.png) Pipes](https://1j01.github.io/pipes/)
 
 A web-based remake of the Windows 3D Pipes screensaver (3D Pipes.scr or sspipes.scr) using [Three.js](https://threejs.org/)
-
+ (with way more pipes)
 Includes both [Utah Teapots](https://en.wikipedia.org/wiki/Utah_teapot) and candy cane easter eggs! (with increased chances 😏)
 
-[Check it out!](https://1j01.github.io/pipes/)
+[Check it out!](https://filipiscoollol.github.io/pipes/)
 
 It's also included in [98.js.org](https://98.js.org/) as a program you can run.
 
-[![](images/meta/screencap.gif)](https://1j01.github.io/pipes/)
+[![](images/meta/screencap.gif)](https://filipiscoollol.github.io/pipes/)
 
 (This screen capture GIF is outdated. It now avoids collisions between pipes and implements the dissolve effect for fading out.)
 
