@@ -362,13 +362,13 @@ function animate() {
       jointType = jointsCycleArray[jointsCycleIndex++];
     }
     var pipeOptions = {
-      teapotChance: 1 / 200, // 1 / 1000 in the original
+      teapotChance: 1 / 1, // 1 / 1000 in the original
       ballJointChance:
         jointType === JOINTS_BALL ? 1 : jointType === JOINTS_MIXED ? 1 / 3 : 0,
       texturePath: options.texturePath,
     };
-    if (chance(1 / 20)) {
-      pipeOptions.teapotChance = 1 / 20; // why not? :)
+    if (chance(1 / 1)) {
+      pipeOptions.teapotChance = 1 / 1; // why not? :)
       pipeOptions.texturePath = "images/textures/candycane.png";
       // TODO: DRY
       if (!textures[pipeOptions.texturePath]) {
